@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Butcher Project Demo</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background-color: #f4f4f4; 
+            color: #333;
+            line-height: 1.6;
+        }
+        header, section { 
+            margin-bottom: 20px; 
+            padding: 20px; 
+            background: #fff; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header h1 { 
+            font-size: 2em; 
+            color: #007BFF;
+        }
+        section h2 { 
+            font-size: 1.5em; 
+            color: #0056b3;
+            border-bottom: 2px solid #ddd; 
+            padding-bottom: 10px; 
+        }
+        video, img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .screenshot-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Industrial Butcher Project Demo</h1>
+        <p>This project showcases skills in data engineering, problem-solving, and AWS integration.</p>
+    </header>
+    
+    <section id="demo">
+        <h2>Project Demo</h2>
+        <video controls>
+            <source src="docs/demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    <section id="overview">
+        <h2>Project Overview</h2>
+        <p>This project addresses an issue where data from an industrial butcher's camera is stored in CSV files, cleaned manually, exported to Excel, and used to visualize non-compliant products. The solution automates this process, ensuring data integrity and saving valuable time.</p>
+    </section>
+    
+    <section id="architecture">
+        <h2>Pipeline Architecture</h2>
+        <p>The process grabs data from CSV via Python, cleans it, creates ID columns, and stores it in an AWS RDS Postgres instance. This automation can be extended to use S3 buckets for triggering scripts.</p>
+        <img src="images/project_architecture.png" alt="Pipeline Architecture">
+        <p class="screenshot-caption">Figure 1: Pipeline architecture from data collection to storage.</p>
+    </section>
+    
+    <section id="main-app">
+        <h2>Main Application</h2>
+        <p>Python is used for transformations and visualizations, Flask for the backend, and AWS EBS for hosting.</p>
+        <img src="images/dashboard.png" alt="Main Dashboard">
+        <p class="screenshot-caption">Figure 2: Main dashboard action page showing key metrics for quick insights.</p>
+    </section>
+    
+
+    <section id="data-viz">
+        <h2>Data Visualization</h2>
+        <p>Interactive charts and graphs allow users to visualize product compliance and other key metrics easily.</p>
+        <img src="images/data_viz.png" alt="Data Visualization">
+        <p class="screenshot-caption">Figure 5: Data visualization showing product compliance.</p>
+    </section>
+    
+    <section id="ci-cd">
+        <h2>CI/CD Pipeline</h2>
+        <p>The deployment process is automated using GitHub Actions, ensuring the application is deployed on every push to the repository.</p>
+    </section>
+    
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>This project demonstrates leadership, technical skills, and AWS integration. Future improvements are based on client requests. For more details, please check out the GitHub repository or contact me at saad.nasir@utexas.edu.</p>
+    </section>
+    
+    <section id="screenshots">
+        <h2>Screenshots</h2>
+        <img src="images/workflow.png" alt="yml file">
+        <p class="screenshot-caption">Figure 6: Sample code from workflow yml file.</p>
+        <img src="images/sample_routes.png" alt="Sample routes">
+        <p class="screenshot-caption">Figure 7: Sample routes for different pages.</p>
+    </section>
+</body>
+</html>

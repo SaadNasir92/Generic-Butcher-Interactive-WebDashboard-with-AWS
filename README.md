@@ -1,6 +1,9 @@
 # Generic Butcher Company - Tools for Quality Control Success
 
+[View Detailed Project Demo Video](https://github.com/SaadNasir92/Generic_Butcher_Interactive_WebDashboard.git)
+
 ## Project Overview
+ We were given real life data from an industrial butcher in hopes that we could present a prototype that would streamline their camera-csv-excel-analytics pipeline. The solution is below:
 - As the quality control team for an industrial butcher, we are tasked with determining:
     - Where our product lines are above 95% compliant to customer's specifications. 
     - Remove obvious errors in the data before providing it to the client.
@@ -25,13 +28,6 @@
     - Data stored and extracted from database
     - Group Presentation 
 
-
-## Team Members
-- Abigail Parsley
-- Caite Green
-- Josh Still
-- Kevin Khan
-- Saad Nasir
 
 ## Tools and Technologies
 
@@ -130,19 +126,7 @@ Data + Reports:
 - Send live-links or emails when data is uploaded to the database
 - Embed radio buttons to call/ download csv reports from the website based on data and product
 
-## Learning Notes
-- Kevin Khan : Bootswatch makes life so much easier. Gives us a CSS format out of the box. 
-- Caite Green : There are a lot of team members with impressive skills.  Hire them. Look at this app. Also, learned a number of future-proofing and trouble-shooting methods like function-wrapping and creating safe errors so VSCode offers up suggestions. 
-- Abigail Presley : The importance of testing across various browsers to check for inconsistencies and the use of bootstrap doing all of the css work for us saves so much time and work.
-- Saad Nasir : 
-    - How important it is to properly clean your data, regardless of if you don't think certain things will be necessary.
-    - Importance of standardized and consistent naming conventions for ease of debugging & modifying.
-    - For future projects, use of dev branches and feature branches to avoid breaking main/master branch.
-- Josh Still : HTML and front-end.  
-
 ## Resources
  - Anonymized Dataset - original data sourced from industrial butcher production-line camera reader.  
  - Bootswatch Slate (https://bootswatch.com/5/slate/bootstrap.min.css)
  - Logo (https://ideogram.ai/t/explore)
- - And the intern... (ChatGPT 4o)
-
