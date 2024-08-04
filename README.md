@@ -1,6 +1,6 @@
 # Generic Butcher Company - Tools for Quality Control Success
 
-[View Detailed Project Demo Video](https://saadnasir92.github.io/Generic_Butcher_Interactive_WebDashboard/)
+[View Detailed Project Demo Video](https://saadnasir92.github.io/Generic-Butcher-Interactive-WebDashboard-with-AWS/)
 
 ## Project Overview
  We were given real life data from an industrial butcher in hopes that we could present a prototype that would streamline their camera-csv-excel-analytics pipeline. The solution is below:
